@@ -44,6 +44,109 @@
     <br> 
 
   <!-- <span style="color:#8b8d90; font-family: Gill Sans; font-size: 22px"> Intelligent Creation Team, ByteDance</span></p> -->
+  </p>
+  </h1>
+</div>
+
+
+<br>
+<div class="content_two">
+  <!-- <div class="hero-body" style="background: #f7fbfb;width: 100%"></div> -->
+  <h2 style="text-align:center; color:#f4f3f1;"><b>How does it work?</b></h2><br>
+  <img class="summary-img" src="static/uno_files/teaser/teaser.jpeg" style="width:100%;">
+  <br>
+  <p>The versatility of DQ-Adapter in universal image generation.</p>
+</div>
+<br>
+
+
+
+
+<div class="content_two">
+  <!-- <div class="hero-body" style="background: #f7fbfb;width: 100%"></div> -->
+  <h2 style="text-align:center; color:#f4f3f1;"><b>Abstract</b></h2>
+  <br>
+  <p>Although subject-driven image personalization has seen significant advances, existing methods still struggle to
+  balance subject fidelity and personalization diversity. In this work, we focus on the paradigm of using resamplers to
+  project control signals for personalization. By analyzing how external conditions (patch, class, or text embeddings)
+  contribute to identity preservation and context variation, we show that the entanglement of learnable queries in
+  existing resamplers hinders the independent contribution of each condition. To address this, we introduce <b>DQ-Adapter</b>, a
+  novel framework that disentangles these queries via a cascading resampling process, allowing for improved control over
+  each condition’s contribution. Specifically, each condition independently refines the learnable queries. First, patch
+  embeddings preserve identity, then class embeddings adjust context, and finally, text embeddings align with user
+  prompts. Residual connections within each stage ensure that the refined queries retain and build upon the information from previous stages, enhancing the coherence and
+  fidelity of the generated image. Experimental results demonstrate that DQ-Adapter consistently preserves subject
+  identity while offering rich, user-aligned context variations across various personalization tasks, outperforming
+  existing methods on both fidelity and diversity metrics.
+  </p>
+</div>
+
+<br>
+<div class="content_two">
+  <!-- <div class="hero-body" style="background: #f7fbfb;width: 100%"></div> -->
+  <h2 style="text-align:center; color:#f4f3f1;"><b>How does it work?</b></h2><br>
+  <img class="summary-img" src="static/uno_files/method/pipeline.png" style="width:100%;">
+  <br>
+  <p>Pipeline of the Disentangled Queries Adapter, with the sequential processing stages for
+  identity preservation, high-level context integration, and prompt alignment.</p>
+</div>
+<br>
+
+<br>
+<div class="content_two">
+  <h2 style="text-align:center; color:#f4f3f1;"><b>Comparison with SDXL-Based Methods on General Objects</b></h2>
+  <br>
+  <img class="summary-img" src="static/uno_files/comparison/comp_sdxl_main-v2.jpg" style="width:100%;">
+  <br>
+</div>
+
+<br>
+<div class="content_two">
+  <h2 style="text-align:center; color:#f4f3f1;"><b>Comparison with SDXL-Based Methods on Human Face</b></h2>
+  <br>
+  <img class="summary-img" src="static/uno_files/comparison/comp_sdxl_face.jpg" style="width:100%;">
+  <br>
+</div>
+
+<br>
+<div class="content_two">
+  <h2 style="text-align:center; color:#f4f3f1;"><b>Comparison with Face Personalization Methods on Human Face</b></h2>
+  <br>
+  <img class="summary-img" src="static/uno_files/comparison/comp_sdxl_face_methods.jpg" style="width:100%;">
+  <br>
+</div>
+
+<br>
+<div class="content_two">
+  <h2 style="text-align:center; color:#f4f3f1;"><b>Comparison with SDXL-Based Methods on Concept Extraction</b></h2>
+  <br>
+  <img class="summary-img" src="static/uno_files/comparison/compare_concept_extract-more.jpg" style="width:100%;">
+  <br>
+</div>
+
+<br>
+<div class="content_two">
+  <h2 style="text-align:center; color:#f4f3f1;"><b>More Examples on Concept Extraction</b></h2>
+  <br>
+  <img class="summary-img" src="static/uno_files/comparison/concept_extract_more_prompt.png" style="width:100%;">
+  <br>
+</div>
+
+<br>
+<div class="content_two">
+  <h2 style="text-align:center; color:#f4f3f1;"><b>Comparison with SDXL-Based Methods on Style Transfer</b></h2>
+  <br>
+  <img class="summary-img" src="static/uno_files/comparison/comp_sdxl_style-1.jpg" style="width:100%;">
+  <br>
+</div>
+
+<br>
+<div class="content_two">
+  <h2 style="text-align:center; color:#f4f3f1;"><b>Comparison with Style Transfer Methods</b></h2>
+  <br>
+  <img class="summary-img" src="static/uno_files/comparison/comp_sdxl_style-2.jpg" style="width:100%;">
+  <br>
+</div>
 
 
 </body>
